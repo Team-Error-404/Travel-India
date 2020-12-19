@@ -1,0 +1,80 @@
+[
+  {
+    "id": "2facb8b5-1d66-4743-ae69-8d2baa3f2e72",
+    "data": [
+      {
+        "text": "i want to contact you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2fc393fe-09a2-4da2-b224-d20011fb6117",
+    "data": [
+      {
+        "text": "resolve my problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "32269027-ce61-418d-bd3c-6eb0efb930e9",
+    "data": [
+      {
+        "text": "i have a problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "61746786-836b-43be-b33c-71c332e374cf",
+    "data": [
+      {
+        "text": "contact us",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3802139c-71cb-44ed-a221-c71d8c93d2c0",
+    "data": [
+      {
+        "text": "i have a query",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0d96bbc7-8274-46a7-bec9-b380230c606f",
+    "data": [
+      {
+        "text": "resolve my query",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

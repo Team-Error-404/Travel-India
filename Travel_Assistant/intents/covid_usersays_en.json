@@ -1,0 +1,91 @@
+[
+  {
+    "id": "6dbb6f44-7002-49b3-a39f-395626cc1f12",
+    "data": [
+      {
+        "text": "covid details in ",
+        "userDefined": false
+      },
+      {
+        "text": "mysuru",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e19652a3-3c73-43ef-b28b-c5eac338b5b2",
+    "data": [
+      {
+        "text": "show me details regarding ",
+        "userDefined": false
+      },
+      {
+        "text": "corona",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fc0f652b-3b70-4f70-84bb-8fa8516b3a64",
+    "data": [
+      {
+        "text": "show me details regarding covid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ab08da8c-f701-470a-aecb-7e8edaf8f31f",
+    "data": [
+      {
+        "text": "corona details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a4e447c0-a5f7-4a99-91a2-b6bbc754d022",
+    "data": [
+      {
+        "text": "covid details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "deaeab8a-e63b-4588-a657-16f476c67620",
+    "data": [
+      {
+        "text": "show me the covid dashboard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

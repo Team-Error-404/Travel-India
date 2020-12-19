@@ -1,0 +1,17 @@
+[
+  {
+    "id": "6e114906-c4d2-46c8-820c-de2671a24026",
+    "data": [
+      {
+        "text": "Delhi",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

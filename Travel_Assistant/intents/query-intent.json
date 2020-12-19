@@ -1,0 +1,67 @@
+{
+  "id": "b4326cfb-b796-4c92-88f1-32c720794b8d",
+  "name": "query-intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "query-intent-follow-up",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "travelindia@gmail.com",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcRspsPJ5nrudeG0EsvED7nWHMSMp0rSFLBQqw\u0026usqp\u003dCAU"
+                        }
+                      },
+                      "link": "mailto:travelindia@gmail.com"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Reach us at : (+91) 76829-85950 for any detailed query of our service."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
