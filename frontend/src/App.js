@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 // Components
 import Page_State from "./components/Page_State";
+import Page_Top_Place from "./components/Page_Top_Place";
 
 import firebase from "firebase";
 
@@ -27,6 +28,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/states/:state" component={Page_State} />
+          <Route exact path="/top-places/:place" component={Page_Top_Place} />
         </Switch>
       </Router>
     </>

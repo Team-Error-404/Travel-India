@@ -2,10 +2,13 @@ import React from 'react'
 import StarRatingComponent from 'react-star-rating-component';
 
 function Card_Top_Places(props) {
+    // let link = props.place.cardTitle.replace(/[^a-zA-Z ]/g, "");
+    // console.log(link);
+
     return (
         <div className="col-12 col-sm-6 col-md-4 mx-auto mt-3">
             <div className="card" id='top-places'>
-                <a href="/top-places/state/place">
+                <a href={`/top-places/${props.place.cardTitle}`}>
                     <div className="card-img-top">
                         <img src={props.place.src} alt="" className='img-fluid' />
                     </div>

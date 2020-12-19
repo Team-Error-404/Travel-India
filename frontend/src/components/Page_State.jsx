@@ -10,7 +10,7 @@ import Card_Top_Places from './Card_Top_Places'
 import Card_Top_Foods from './Card_Top_Foods'
 
 
-import states from '../assets/data/States.js'
+import states from '../assets/data/states.js'
 
 function Page_State(props) {
     let state = props.match.params.state;
