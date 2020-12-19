@@ -9,6 +9,7 @@ function Card_Top_Foods(props) {
                 </div>
                 <div className="card-footer">
                     <h1>{props.food.cardTitle}</h1>
+                    {props.food.cardText}
                 </div>
             </div>
         </div>
