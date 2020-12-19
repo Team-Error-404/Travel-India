@@ -23,6 +23,17 @@ import dalBaatiChurma from "../img/rajasthan/dal-baati-churma.webp";
 import kerSangri from "../img/rajasthan/ker-sangri.webp";
 import onionKachori from "../img/rajasthan/onion-kachori.webp";
 
+// delhi
+// bg
+import delhi_bg from "../img/delhi/bg.jpg";
+// places
+import redFort from "../img/delhi/red-fort1.jpg";
+import qutubMinar from "../img/delhi/qutub-minar1.jpg";
+import humayunsTomb from "../img/delhi/humayuns-tomb1.jpg";
+// foods
+import choleBhature from "../img/delhi/chole-bhature.jpg";
+import kebabs from "../img/delhi/kebabs.jpg";
+import butterChicken from "../img/delhi/butter-chicken.jpg";
 let states = {
   Odisha: {
     bg: odisha_bg,
@@ -91,6 +102,41 @@ let states = {
       {
         src: onionKachori,
         cardTitle: "Onion Kachori",
+      },
+    ],
+  },
+  Delhi: {
+    bg: delhi_bg,
+    tagLine: "Dildaar Dilli",
+    topPlaces: [
+      {
+        src: humayunsTomb,
+        cardTitle: "Humayun's Tomb",
+        cardText: "Palatial 16th-century tomb of Humayun",
+      },
+      {
+        src: redFort,
+        cardTitle: "Red Fort",
+        cardText: "Iconic 1600s imperial residence & museum",
+      },
+      {
+        src: qutubMinar,
+        cardTitle: "Qutub Minar",
+        cardText: "5-storey victory tower with balconies",
+      },
+    ],
+    topFoods: [
+      {
+        src: butterChicken,
+        cardTitle: "Butter Chicken",
+      },
+      {
+        src: choleBhature,
+        cardTitle: "Chole Bhature",
+      },
+      {
+        src: kebabs,
+        cardTitle: "Kebabs",
       },
     ],
   },
