@@ -1,0 +1,54 @@
+[
+  {
+    "id": "0b23efa8-aadf-4dc1-9e4c-d699634fc434",
+    "data": [
+      {
+        "text": "list of packages",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "efa2e1aa-9402-414f-b593-ed0d15d1f126",
+    "data": [
+      {
+        "text": "tour list show",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "562fa6c9-4ef6-4f19-8967-ac95a675d7fd",
+    "data": [
+      {
+        "text": "show me tour packages",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "818d9d92-944b-44f8-8296-7b0a4cc05b3a",
+    "data": [
+      {
+        "text": "get me the list of tour packages",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

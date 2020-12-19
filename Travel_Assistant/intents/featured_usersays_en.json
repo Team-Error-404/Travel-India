@@ -1,0 +1,85 @@
+[
+  {
+    "id": "76b9258e-2a6e-4923-a555-bd58658e0d5a",
+    "data": [
+      {
+        "text": "take me to the featured section",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "34e9d990-16a5-4f07-acbd-404316dda9e7",
+    "data": [
+      {
+        "text": "featured destinations in ",
+        "userDefined": false
+      },
+      {
+        "text": "mysuru",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b0ab6bb0-25c8-4da3-9e56-ff515a281bdc",
+    "data": [
+      {
+        "text": "best places to visit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "70ce9b79-d87b-490c-aed2-e16bf3d4bf15",
+    "data": [
+      {
+        "text": "what is the best places to visit in ",
+        "userDefined": false
+      },
+      {
+        "text": "mysuru",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1e488543-fe9b-4c5d-92e6-612d917f87ba",
+    "data": [
+      {
+        "text": "what is famous in ",
+        "userDefined": false
+      },
+      {
+        "text": "mysuru",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

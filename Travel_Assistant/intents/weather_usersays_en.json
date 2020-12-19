@@ -1,0 +1,273 @@
+[
+  {
+    "id": "d2fd5b02-9234-442f-b29e-4007081cdec6",
+    "data": [
+      {
+        "text": "I want to know the weather!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ccb5be7b-71a4-4258-af05-eb95c8d27160",
+    "data": [
+      {
+        "text": "What\u0027s the weather ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c145890b-db87-48ab-a48e-58eb2a4a4490",
+    "data": [
+      {
+        "text": "Tell me the weather?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a777499f-f932-4836-942f-f0bfec89aa47",
+    "data": [
+      {
+        "text": "What will be ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "meta": "@sys.date-period",
+        "alias": "period",
+        "userDefined": true
+      },
+      {
+        "text": " weather at ",
+        "userDefined": false
+      },
+      {
+        "text": "sambalpur",
+        "meta": "@sys.geo-city",
+        "alias": "city",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f7e9b268-05b9-4a24-b2a0-a8c28565b61e",
+    "data": [
+      {
+        "text": "what will be the weather ",
+        "userDefined": false
+      },
+      {
+        "text": "today at 3:15pm",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1982b43a-d24d-48f1-b5f5-5e7d37c3215f",
+    "data": [
+      {
+        "text": "How is the weather ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "meta": "@sys.date-period",
+        "alias": "period",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a1ef5d72-b55e-48b1-8aae-6afecba1ed83",
+    "data": [
+      {
+        "text": "How is the weather ",
+        "userDefined": false
+      },
+      {
+        "text": "currently",
+        "meta": "@sys.date-period",
+        "alias": "period",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "409641a6-9cf4-448d-a6e1-b3af2b0d0f1d",
+    "data": [
+      {
+        "text": "What is the weather in the coming ",
+        "userDefined": false
+      },
+      {
+        "text": "week",
+        "meta": "@sys.date-period",
+        "alias": "period",
+        "userDefined": false
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "300d2ffb-638e-4882-a3e0-f52d91b0179a",
+    "data": [
+      {
+        "text": "Do you know if it will rain ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "meta": "@sys.date-period",
+        "alias": "period",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7a9ebe9b-ef83-409b-abba-eae25e16ddf5",
+    "data": [
+      {
+        "text": "weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "58afd5a3-e27f-4375-ae0e-8e88157f540d",
+    "data": [
+      {
+        "text": "What will be the weather ",
+        "userDefined": false
+      },
+      {
+        "text": "this week",
+        "meta": "@sys.date-period",
+        "alias": "period",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a97a2cae-f5c5-4ee1-955e-c9f63e8d0586",
+    "data": [
+      {
+        "text": "What is the weather ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.date-period",
+        "alias": "period",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "34542af6-bef6-48f3-a021-2752ea72dc97",
+    "data": [
+      {
+        "text": "What is the weather in ",
+        "userDefined": false
+      },
+      {
+        "text": "Goa",
+        "meta": "@sys.geo-city",
+        "alias": "city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

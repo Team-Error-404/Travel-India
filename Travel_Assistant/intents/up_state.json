@@ -1,0 +1,72 @@
+{
+  "id": "f7f7ea1a-699a-4aaf-ab40-2ff783970e44",
+  "name": "up_state",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "up_state-intent-follow-up",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4b0ed1b1-89e4-4114-8980-a1fc829f9222",
+          "name": "geo-state",
+          "required": false,
+          "dataType": "@sys.geo-state",
+          "value": "$geo-state",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Uttar Pradesh State Page",
+                      "link": "https://error404-travelindia.web.app",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://www.dishapublication.com/blog/wp-content/uploads/2017/01/Uttar-Pradesh-Basic-Education-Parishad.png"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

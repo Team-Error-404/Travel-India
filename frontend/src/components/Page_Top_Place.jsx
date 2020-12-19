@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import StarRatingComponent from 'react-star-rating-component';
-import NavBar from './NavBar'
+import Navbar from './Navbar'
 import Footer from './Footer'
 
 import firebase from 'firebase/app'
@@ -92,7 +92,7 @@ function Page_Top_Place(props) {
 
     return (
         <>
-            <NavBar />
+            <Navbar />
             <div className="container" style={{ marginTop: '62' + 'px', paddingTop: '20' + 'px' }}>
                 <div className="row mx-auto">
                     <div className="col-md-8">

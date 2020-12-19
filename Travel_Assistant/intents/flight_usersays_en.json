@@ -1,0 +1,73 @@
+[
+  {
+    "id": "d0b93908-86b9-41d1-8ab5-f3541c8354c7",
+    "data": [
+      {
+        "text": "show me the flight menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9c417219-14e5-4623-9f60-4137f7499a16",
+    "data": [
+      {
+        "text": "aeroplane book",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d0872500-ca7c-457c-b383-3cee66eccafe",
+    "data": [
+      {
+        "text": "flight booking menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "562bb1f2-4889-4e72-865d-f401c2bf93b2",
+    "data": [
+      {
+        "text": "flight booking page",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "79f7aa8a-b2df-480d-b161-4c57a2f9fc93",
+    "data": [
+      {
+        "text": "flight station in ",
+        "userDefined": false
+      },
+      {
+        "text": "mysore",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

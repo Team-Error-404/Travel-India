@@ -1,0 +1,72 @@
+{
+  "id": "d29e27df-64e5-4f66-a3c3-d935f365d561",
+  "name": "flight",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "flight-intent-follow-up",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8d72f23a-e7d5-4fc0-980e-e53306d76ca8",
+          "name": "geo-city",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "value": "$geo-city",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://png.pngtree.com/png-clipart/20190918/ourmid/pngtree-vector-flying-in-the-plane-png-3237235-png-image_1725040.jpg"
+                        }
+                      },
+                      "link": "https://error404-travelindia.web.app/",
+                      "text": "Flight Booking Page"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

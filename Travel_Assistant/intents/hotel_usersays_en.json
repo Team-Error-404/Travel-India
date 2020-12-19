@@ -1,0 +1,138 @@
+[
+  {
+    "id": "aa89db99-9514-4618-b5cb-106f4ecd7f7b",
+    "data": [
+      {
+        "text": "hotels near me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dba6fdd1-e98b-4145-9c84-99f68a4f6282",
+    "data": [
+      {
+        "text": "show me hotel booking details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bf8a255a-0d03-4f59-97f3-e6c7174ba611",
+    "data": [
+      {
+        "text": "hotel menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "51cbf013-1ae6-413c-8d99-755835bb8cdc",
+    "data": [
+      {
+        "text": "book an hotel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a9015510-2bda-4d5e-8eb9-b15da181ef07",
+    "data": [
+      {
+        "text": "details regarding hotel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2b77a804-cab5-4ed1-bb35-14ce88919a14",
+    "data": [
+      {
+        "text": "staying places in ",
+        "userDefined": false
+      },
+      {
+        "text": "mysore",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cee850b0-ed89-42b6-8c72-f81f00a96443",
+    "data": [
+      {
+        "text": "suggest lodge near me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b33fa80b-3e03-471b-ac46-8a2864846a3f",
+    "data": [
+      {
+        "text": "suggest laudge near me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5db2e2e1-d3b8-44b1-a578-bf410566b882",
+    "data": [
+      {
+        "text": "book an hotel for me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cf196d20-17c6-41e9-af33-7e2ae835196a",
+    "data": [
+      {
+        "text": "book me a hotel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

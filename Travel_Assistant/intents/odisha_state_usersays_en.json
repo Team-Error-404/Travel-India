@@ -1,0 +1,17 @@
+[
+  {
+    "id": "b193dba6-5ac5-41e0-9db0-3c3a71f811a4",
+    "data": [
+      {
+        "text": "Odisha",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

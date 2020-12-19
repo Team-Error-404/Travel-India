@@ -1,0 +1,72 @@
+{
+  "id": "87c70d21-f603-4302-bef3-352160c37cad",
+  "name": "delhi_state",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "delhi_state-intent-follow-up",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "592e7828-3eee-48fd-bd2a-60eeddad2b71",
+          "name": "geo-city",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "value": "$geo-city",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "link": "https://error404-travelindia.web.app",
+                      "image": {
+                        "src": {
+                          "rawUrl": "data:image/png;base64,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\u003d"
+                        }
+                      },
+                      "text": "Delhi State Page"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "c8750dea-c5e6-42b2-81b1-15daa98138a3",
+    "data": [
+      {
+        "text": "rajasthan",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

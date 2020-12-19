@@ -1,0 +1,30 @@
+[
+  {
+    "id": "0812d225-a8be-410c-998c-2606d3bddc81",
+    "data": [
+      {
+        "text": "up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b4b53c26-08a1-4f0b-9079-7079c666f90d",
+    "data": [
+      {
+        "text": "Uttar Pradesh",
+        "meta": "@sys.geo-state",
+        "alias": "geo-state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "id": "6ff13f3c-1659-41f2-8df1-91208accad3f",
+  "name": "odisha_state",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "odisha_state-intent-follow-up",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f81abd6d-1dc9-4b0d-bb18-0897d931337a",
+          "name": "geo-state",
+          "required": false,
+          "dataType": "@sys.geo-state",
+          "value": "$geo-state",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "link": "https://error404-travelindia.web.app",
+                      "text": "Odisha State Page",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcSf4ZIMxVNfuw9k6OwqgzPg6j-LcyW_UVZ_9A\u0026usqp\u003dCAU"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

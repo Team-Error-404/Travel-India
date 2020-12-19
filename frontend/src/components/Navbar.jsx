@@ -33,10 +33,10 @@ const NavBar = () => {
               <a className="nav-link" href="/">COVID DASHBOARD</a>
             </li>
             <li className="nav-item  px-2">
-              <a className="nav-link" href="#shorcuts">MAKE PLANS</a>
+              <a className="nav-link" href="/#shorcuts">MAKE PLANS</a>
             </li>
             <li className="nav-item  px-2">
-              <a className="nav-link" href="#contactus">CONTACT US</a>
+              <a className="nav-link" href="/#social">CONTACT US</a>
             </li>
           </Nav>
         </Navbar.Collapse>
