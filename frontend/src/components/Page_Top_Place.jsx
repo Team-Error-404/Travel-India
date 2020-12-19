@@ -1,8 +1,9 @@
 import React from 'react'
 import StarRatingComponent from 'react-star-rating-component';
-import { Carousel } from 'react-bootstrap'
+import { Carousel} from 'react-bootstrap'
 import top_places from '../assets/data/top_places.js'
-
+import Footer from './Footer'
+import Navbar from './Navbar'
 function Page_Top_Place(props) {
     let title = props.match.params.place;
     let place = title.replace(/[^a-zA-Z ]/g, "");
@@ -11,6 +12,7 @@ function Page_Top_Place(props) {
     console.log(data);
     return (
         <>
+            <Navbar />
             <div className="container-fluid" style={{ marginTop: '62' + 'px', paddingTop: '20' + 'px' }}>
                 <div className="row">
                     <div className="col-md-6">
@@ -48,6 +50,7 @@ function Page_Top_Place(props) {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

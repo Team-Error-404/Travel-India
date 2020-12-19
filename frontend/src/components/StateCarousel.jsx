@@ -16,7 +16,7 @@ function StateCarousel() {
   ]
   return (
     <Carousel breakPoints={breakPoints} className="top-states">
-      <Link className="px-3 nav-link state" to="/" >
+      <Link className="px-3 nav-link state" to="/states/UtterPradesh" >
         <div class="card" >
           <img src={varanasi} class="card-img-top" alt="..."/>
           <div class="card-body top-state-body">
@@ -25,7 +25,7 @@ function StateCarousel() {
           </div>
         </div>
       </Link>
-      <Link className="px-3 nav-link state" tp="/">
+      <Link className="px-3 nav-link state" to="/states/Delhi">
         <div class="card" >
           <img src={red_fort} class="card-img-top" alt="..." />
           <div class="card-body top-state-body">
@@ -34,7 +34,7 @@ function StateCarousel() {
           </div>
         </div>
       </Link>
-      <Link className="px-3 nav-link state" tp="/">
+      <Link className="px-3 nav-link state" to="/states/Rajasthan">
         <div class="card" >
           <img src={rajasthan} class="card-img-top" alt="..."/>
           <div class="card-body top-state-body">
@@ -43,7 +43,7 @@ function StateCarousel() {
           </div>
         </div>
       </Link>
-      <Link className="px-3 nav-link state" tp="/">
+      <Link className="px-3 nav-link state" to="/states/Odisha">
         <div class="card" >
           <img src={odisha} class="card-img-top" alt="..." />
           <div class="card-body top-state-body">
@@ -52,7 +52,7 @@ function StateCarousel() {
           </div>
         </div>
       </Link>
-      <Link className="px-3 nav-link state" tp="/">
+      <Link className="px-3 nav-link state" to="/">
         <div class="card" >
           <img src={red_fort} class="card-img-top" alt="..." />
           <div class="card-body top-state-body">
