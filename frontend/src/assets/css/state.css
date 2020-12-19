@@ -30,3 +30,19 @@
 #top-places a {
   text-decoration: none !important;
 }
+
+#review-form {
+  margin-top: 60px;
+}
+.sent {
+  background-color: #ededed;
+  border-radius: 0.1rem 1rem 1rem 1rem;
+}
+
+.message-content {
+  padding: 15px 15px;
+  font-size: 15px;
+}
+#review-container {
+  background-color: #fff;
+}

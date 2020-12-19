@@ -8,15 +8,30 @@ import "../assets/css/covid.css"
 import StateCarousel from './StateCarousel'
 import DestinationCarousel from './DestinationCarousel'
 import FoodCarousel from './FoodCarousel'
+
+import firebase from 'firebase/app'
+import 'firebase/firestore'
+
+
 const Home = () => {
 
   const [confirmed, setConfirmed] = useState(0);
   const [recovered, setRecovered] = useState(0);
   const [active, setActive] = useState(0);
   const [deceased, setDeceased] = useState(0);
-  const bgStyle = {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${hero_image})`
-  }
+
+  useEffect(() => {
+    firebase.firestore().collection('rating').get().then(querySnapshot => {
+      querySnapshot.forEach(doc => {
+        localStorage.setItem(`${doc.data().id + '_count'}`, `${doc.data().count}`);
+        localStorage.setItem(`${doc.data().id + '_user'}`, `${doc.data().user}`);
+        console.log(`${doc.data().id + '_count'}`);
+        console.log(`${doc.data().count}`);
+        console.log(`${doc.data().id + '_user'}`);
+        console.log(`${doc.data().user}`);
+      });
+    })
+  }, []);
 
   return (
     <>

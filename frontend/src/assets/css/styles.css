@@ -29,3 +29,9 @@ footer #social {
 #rating-container label {
   font-size: 25px;
 }
+
+.btn-theme {
+  color: #fff !important;
+  background-color: rgba(44, 48, 68, 0.767);
+  border-color: rgba(44, 48, 68, 0.767);
+}
