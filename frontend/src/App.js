@@ -2,9 +2,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // bootstrap css
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import "./assets/css/styles.css"
 // Components
 import Page_State from "./components/Page_State";
+import Home from "./components/Home"
 
 import firebase from "firebase";
 
@@ -26,6 +27,7 @@ function App() {
       {/* // routers */}
       <Router>
         <Switch>
+          <Route exact path="/" component={Home} />
           <Route exact path="/states/:state" component={Page_State} />
         </Switch>
       </Router>

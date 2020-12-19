@@ -1,0 +1,129 @@
+.header {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.hero-container{
+  position: relative;
+}
+
+.hero-img{
+  width: 100vw;
+  height: auto;
+}
+
+.hero-caption-container{
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  text-align: center;
+}
+
+.hero-caption{
+  width:500px
+}
+
+#covid-19-dashboard{
+  background: rgba(225, 225, 225, 0.5);
+  
+}
+
+.india-tourism{
+  padding-top:3rem;
+}
+
+.india-tourism-header{
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.intro-hidden{
+  display: none;
+}
+
+.read-more{
+  background: none;
+  border: none;
+  color:#f8a12d;
+}
+
+.carousel{
+  max-width: 792px;
+  
+}
+
+.card{
+  max-width: 750px;
+}
+
+.state:hover{
+  border:none;
+}
+
+.top-state-body{
+  text-decoration: none;
+  color: black;
+}
+
+#video {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  margin: 10px 0px;
+  overflow: hidden;
+  background: url("../img/cover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#video h1 {
+  margin: -10px 0 20px 0px;
+}
+#video iframe {
+  width: 50vw;
+  height: 28.125vw;
+}
+
+@media (max-width: 1400px){
+  .hero-caption{
+    max-width: 400px !important;
+  }
+}
+
+@media (max-width: 1024px){
+  .rec-arrow{
+    display:none;
+  }
+}
+
+@media (max-width: 770px ){
+  .header {
+    font-size: 30px !important;
+    font-weight: normal;
+  }
+  .hero-caption{
+    max-width: 300px !important;
+  }
+}
+
+@media (max-width: 540px){
+  .hero-caption{
+    max-width: 250px !important;
+  }
+}
+
+@media (max-width: 450px){
+  .hero-caption{
+    max-width: 100px !important;
+  }
+  .hero-caption-container{
+    width: 100%;
+    top: 50%;
+
+  }
+}
