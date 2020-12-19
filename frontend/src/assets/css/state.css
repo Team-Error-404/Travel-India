@@ -1,0 +1,32 @@
+.banner {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.banner h1 {
+  text-align: center;
+  padding-top: 20vh;
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 500;
+}
+.banner p {
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 500;
+  padding-bottom: 20vh;
+}
+.card-footer {
+  color: black;
+}
+.card-footer h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+#top-places a {
+  text-decoration: none !important;
+}
