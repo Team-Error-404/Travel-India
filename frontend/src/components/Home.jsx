@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Chart from 'chart.js'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import hero_image from '../assets/img/hero_image.jpg'
@@ -11,18 +12,12 @@ import "../assets/css/covid.css"
 import StateCarousel from './StateCarousel'
 import DestinationCarousel from './DestinationCarousel'
 import FoodCarousel from './FoodCarousel'
+import Dashboard from './Dashboard'
 
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 
-
 const Home = () => {
-
-  const [confirmed, setConfirmed] = useState(0);
-  const [recovered, setRecovered] = useState(0);
-  const [active, setActive] = useState(0);
-  const [deceased, setDeceased] = useState(0);
-
   useEffect(() => {
     firebase.firestore().collection('rating').get().then(querySnapshot => {
       querySnapshot.forEach(doc => {
@@ -48,7 +43,7 @@ const Home = () => {
         </div>
       </div>
       {/* </section> */}
-      <section id="covid-19-dashboard" className="container py-5 bg-light ">
+      {/* <section id="covid-19-dashboard" className="container py-5 bg-light ">
         <h2 className="mt-2 pb-3 header">COVID DASHBOARD</h2>
         <div id="card-container">
           <div id="confirmed" className="covid-card">Confirmed:<br />{confirmed}</div>
@@ -56,7 +51,8 @@ const Home = () => {
           <div id="active" className="covid-card">Active:<br />{active}</div>
           <div id="deceased" className="covid-card">Deceased:<br />{deceased}</div>
         </div>
-      </section>
+      </section> */}
+      <Dashboard />
       <main className="main-container ">
         <section id="video" className='mt-3'>
           <h2 className="header mb-4 ">INDIA AT GLANCE </h2>
@@ -66,7 +62,7 @@ const Home = () => {
           <h2 className="header">EXPLORE STATES</h2>
           <StateCarousel />
         </section>
-        <section className="top-states my-5">
+        <section className="top-states my-5" id='top-destinations'>
           <h2 className="header">TOP DESTINATIONS</h2>
           <DestinationCarousel />
         </section>
@@ -79,8 +75,8 @@ const Home = () => {
           <div className="card-deck">
             <div className="card">
               <a href="/book-flights" className="card-link">
-                  <img src={flight} className="card-img-top" alt="Flight" />
-                  <span>BOOK FLIGHT</span>
+                <img src={flight} className="card-img-top" alt="Flight" />
+                <span>BOOK FLIGHT</span>
               </a>
             </div>
             <div className="card">

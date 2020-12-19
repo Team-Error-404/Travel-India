@@ -4,6 +4,8 @@ import '../assets/css/state.css'
 import StarRatingComponent from 'react-star-rating-component';
 import NavBar from './Navbar'
 import Footer from './Footer'
+import Dashboard from './Dashboard'
+
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
@@ -28,8 +30,9 @@ function Page_State(props) {
             <NavBar />
             <div className="banner" style={bgStyle}>
                 <h1>{state}</h1>
-                <p>{data.tagLine}</p>
+                <p className='mb-0'>{data.tagLine}</p>
             </div>
+            <Dashboard state={state} />
             <h2 className='mt-5 header'>Top places to explore</h2>
             <div className="container">
                 <div className="row mt-2 mx-auto">

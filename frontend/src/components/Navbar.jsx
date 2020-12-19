@@ -30,7 +30,7 @@ const NavBar = () => {
               </ul>
             </li>
             <li className="nav-item  px-2">
-              <a className="nav-link" href="/">COVID DASHBOARD</a>
+              <a className="nav-link" href="/#top-destinations">TOP DESTINATIONS</a>
             </li>
             <li className="nav-item  px-2">
               <a className="nav-link" href="/#shorcuts">MAKE PLANS</a>

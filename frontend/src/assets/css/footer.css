@@ -3,10 +3,9 @@ footer {
   background-color: rgba(44, 48, 68, 0.767);
   height: auto;
   color: #acacac;
-  margin-top: 4rem;
 }
-footer h4{
-  color:#f8a12d;
+footer h4 {
+  color: #f8a12d;
   margin-bottom: 2rem;
 }
 footer #main {
@@ -63,18 +62,18 @@ footer #main .coloumn h5 {
   padding: 10px 10px;
 }
 
-#footer-coloumn3 #email{
+#footer-coloumn3 #email {
   text-decoration: none;
   color: #acacac;
 }
 
-#footer-coloumn3 #email:hover{
+#footer-coloumn3 #email:hover {
   text-decoration: none;
   color: #f8a12d;
 }
 
-#footer-coloumn3 #email:hover{
-  color:#f8a12d;
+#footer-coloumn3 #email:hover {
+  color: #f8a12d;
 }
 
 footer #copyright {
