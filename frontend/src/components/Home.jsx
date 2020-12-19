@@ -1,13 +1,19 @@
 import React,{useEffect, useState} from 'react'
+import {Link} from 'react-router-dom'
 import Footer from './Footer'
 import Navbar from './Navbar'
-import hero_image from '../assets/img/hero_image.jpg'
-import hero_caption from '../assets/img/hero-caption.png'
+
 import "../assets/css/home.css"
 import "../assets/css/covid.css"
 import StateCarousel from './StateCarousel'
 import DestinationCarousel from './DestinationCarousel'
 import FoodCarousel from './FoodCarousel'
+
+import hero_image from '../assets/img/hero_image.jpg'
+import hero_caption from '../assets/img/hero-caption.png'
+import flight from '../assets/img/Bookings/flight.jpg'
+import hotel from '../assets/img/Bookings/hotel.jpg'
+import pack from '../assets/img/Bookings/package.jpg'
 const Home = () => {
   
   const [confirmed, setConfirmed] = useState(0);
@@ -52,6 +58,29 @@ const Home = () => {
         <section className="top-states my-5">
           <h2 className="header">TOP FOODS</h2>
           <FoodCarousel/>
+        </section>
+        <section id="shorcuts">
+          <h2 className="header mb-3 explore">MAKE YOUR PLANS</h2>
+          <div className="card-deck">
+            <div className="card">
+              <a href="/book-flights" className="card-link">
+                  <img src={flight} className="card-img-top" alt="Flight" />
+                  <span>BOOK FLIGHT</span>
+              </a>
+            </div>
+            <div className="card">
+              <a href="/book-hotels" className="card-link">
+                <img src={hotel} className="card-img-top" alt="Hotel" />
+                <span>BOOK HOTELS</span>
+              </a>
+            </div>
+            <div className="card">
+              <a href="/book-package" className="card-link">
+                <img src={pack} className="card-img-top" alt="package" />
+                <span>BOOK PACKAGE</span>
+              </a>
+            </div>
+          </div>
         </section>
       </main>
       <Footer />

@@ -15,7 +15,6 @@ const Footer = () => {
           <li><a href="#destinations">Featured destinations</a></li>
           <li><a href="#shorcuts">Make Bookings</a></li>
           <li><a href="#">Covid Cases</a></li>
-          <li><a href="#">Contact us </a></li>
         </ul>
       </div>
       <div id="footer-coloumn3" class="col-lg-4 col-sm-12 coloumn">

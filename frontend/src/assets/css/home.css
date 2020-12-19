@@ -90,6 +90,43 @@
   height: 28.125vw;
 }
 
+shorcuts {
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+#shorcuts .card {
+  transition: box-shadow 350ms ease-in;
+  border-radius: 20px;
+  overflow: hidden;
+}
+#shorcuts .card:hover {
+  box-shadow: 0px 0px 10px 1px rgb(109, 108, 108);
+}
+#shorcuts a {
+  position: relative;
+}
+#shorcuts a img {
+  filter: blur(1px);
+}
+#shorcuts a span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+#shorcuts h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 1400px){
   .hero-caption{
     max-width: 400px !important;

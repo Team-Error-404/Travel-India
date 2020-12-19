@@ -26,13 +26,13 @@ const Navbar = () => {
               <a class="nav-link" href="/">COVID DASHBOARD</a>
           </li>
             <li class="nav-item pt-3 px-2">
-                <a class="nav-link" href="#shorcuts">MAKE PLANS</a>
+                <a class="nav-link" href="/#shorcuts">MAKE PLANS</a>
               </li>
             <li class="nav-item pt-3 px-2">
-              <a class="nav-link" href="#social">CONTACT US</a>
+              <a class="nav-link" href="/#social">CONTACT US</a>
             </li> 
           </ul>
-        </div>
+        </div> 
       </div>
     </nav>
   )
