@@ -12,6 +12,7 @@ import flights from './assets/data/flight'
 import hotels from './assets/data/hotels'
 import packages from './assets/data/packages'
 import firebase from "firebase";
+import Contact from "./components/Contact";
 
 var firebaseConfig = {
   apiKey: "AIzaSyArdj2c68cpKizabT8mcPeaqVYXk7f5Zcg",
@@ -43,6 +44,7 @@ function App() {
           <Route exact path="/book-package">
             <Bookings data={packages} />
           </Route>
+          <Route exact path="/contact-us" component={Contact} />
         </Switch>
       </Router>
     </>

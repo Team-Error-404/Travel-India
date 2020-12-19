@@ -36,7 +36,7 @@ const NavBar = () => {
               <a className="nav-link" href="/#shorcuts">MAKE PLANS</a>
             </li>
             <li className="nav-item  px-2">
-              <a className="nav-link" href="/#social">CONTACT US</a>
+              <a className="nav-link" href="/contact-us">CONTACT US</a>
             </li>
           </Nav>
         </Navbar.Collapse>
