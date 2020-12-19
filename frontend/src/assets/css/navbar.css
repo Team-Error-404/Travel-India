@@ -1,8 +1,7 @@
 nav {
   background-color: rgba(44, 48, 68, 0.767);
-  width: 100% !important;
+  /* width: 100% !important; */
   padding: 0 !important;
-  
 }
 .navbar-brand img {
   width: 75px;
@@ -20,7 +19,7 @@ button.navbar-toggler {
   outline: none !important;
   color: white !important;
   border: none;
-  font-size: 1rem;
+  font-size: 25px;
 }
 .nav-link:hover,
 .active > a {
@@ -28,24 +27,24 @@ button.navbar-toggler {
   border-bottom: 3px solid #f8a12d;
 }
 
-.dropdown:hover .dropdown-menu{
+.dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0;
 }
 
 .dropdown-toggle::after {
-  display:none;
+  display: none;
 }
 
-.dropdown-menu{
+.dropdown-menu {
   background-color: rgba(44, 48, 68, 0.7);
 }
-.dropdown-item{
+.dropdown-item {
   color: #acacac;
   padding: 0.5rem 8rem 0.5rem 1rem;
 }
 
-.dropdown-item:hover{
-  background-color :rgba(44, 48, 68, 0.767);
+.dropdown-item:hover {
+  background-color: rgba(44, 48, 68, 0.767);
   color: #f8a12d;
 }

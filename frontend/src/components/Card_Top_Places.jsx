@@ -15,7 +15,7 @@ function Card_Top_Places(props) {
                     <div className="card-footer">
                         <h1>{props.place.cardTitle}</h1>
                         <div className="row">
-                            <div className="col-8">
+                            <div className="col-8" id='rating-container'>
                                 <StarRatingComponent
                                     name="rate1"
                                     starCount={5}

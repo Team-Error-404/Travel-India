@@ -1,41 +1,48 @@
 import React from 'react'
 import "../assets/css/navbar.css"
 import travel_india_logo from "../assets/img/travel_india_logo.png"
-const Navbar = () => {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Navbar, Nav } from "react-bootstrap";
+
+const NavBar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top pt-2">
-      <div class="container text-center">
-        <a class="navbar-brand" href="/"><img src={travel_india_logo} alt=""/></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item px-2">
-              <a class="nav-link" href="/">HOME</a>
+    <Navbar className="fixed-top py-2 px-2" expand='lg'>
+      <div className="container">
+        <a className="navbar-brand" href="/"><img src={travel_india_logo} alt="" /></a>
+        {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button> */}
+        <Navbar.Toggle aria-controls="navbarSupportedContent">
+          <FontAwesomeIcon icon={faBars} className="nav-toggler" />
+        </Navbar.Toggle>
+        <Navbar.Collapse id="navbarSupportedContent">
+          <Nav className="mr-auto mb-2 mb-lg-0">
+            <li className="nav-item px-2">
+              <a className="nav-link" href="/">HOME</a>
             </li>
-            <li class="nav-item dropdown  px-2">
-              <div class="nav-link dropdown-toggle" >GO TO DESTINATIONS</div>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/">a</a></li>
-                <li><a class="dropdown-item" href="/"> a</a></li>
-                <li><a class="dropdown-item" href="/">a</a></li>
+            <li className="nav-item dropdown  px-2">
+              <div className="nav-link dropdown-toggle" >GO TO DESTINATIONS</div>
+              <ul className="dropdown-menu">
+                <li><a className="dropdown-item" href="/">a</a></li>
+                <li><a className="dropdown-item" href="/"> a</a></li>
+                <li><a className="dropdown-item" href="/">a</a></li>
               </ul>
             </li>
-            <li class="nav-item  px-2">
-              <a class="nav-link" href="/">COVID DASHBOARD</a>
-          </li>
-            <li class="nav-item  px-2">
-                <a class="nav-link" href="#shorcuts">MAKE PLANS</a>
-              </li>
-            <li class="nav-item  px-2">
-              <a class="nav-link" href="#contactus">CONTACT US</a>
-            </li> 
-          </ul>
-        </div>
+            <li className="nav-item  px-2">
+              <a className="nav-link" href="/">COVID DASHBOARD</a>
+            </li>
+            <li className="nav-item  px-2">
+              <a className="nav-link" href="#shorcuts">MAKE PLANS</a>
+            </li>
+            <li className="nav-item  px-2">
+              <a className="nav-link" href="#contactus">CONTACT US</a>
+            </li>
+          </Nav>
+        </Navbar.Collapse>
       </div>
-    </nav>
+    </Navbar>
   )
 }
 
-export default Navbar
+export default NavBar

@@ -1,66 +1,68 @@
-.header {
-  font-size: 40px;
-  font-weight: 600;
-}
-
-.hero-container{
+.hero-image {
   position: relative;
+  width: 100% !important;
+  height: auto !important;
+  background-image: url("../img/hero_image.jpg") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.hero-img{
-  width: 100vw;
-  height: auto;
-}
-
-.hero-caption-container{
+/* .hero-img {
   width: 100%;
-  position: absolute;
-  top: 20%;
+  height: auto;
+} */
+
+.hero-caption-container {
+  width: 100%;
+  /* position: absolute; */
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+
   text-align: center;
 }
 
-.hero-caption{
-  width:500px
+.hero-caption {
+  width: 500px;
 }
 
-#covid-19-dashboard{
+#covid-19-dashboard {
   background: rgba(225, 225, 225, 0.5);
-  
 }
 
-.india-tourism{
-  padding-top:3rem;
+.india-tourism {
+  padding-top: 3rem;
 }
 
-.india-tourism-header{
+.india-tourism-header {
   font-size: 3rem;
   font-weight: 600;
 }
 
-.intro-hidden{
+.intro-hidden {
   display: none;
 }
 
-.read-more{
+.read-more {
   background: none;
   border: none;
-  color:#f8a12d;
+  color: #f8a12d;
 }
 
-.carousel{
+.carousel {
   max-width: 792px;
-  
 }
 
-.card{
+.card {
   max-width: 750px;
 }
 
-.state:hover{
-  border:none;
+.state:hover {
+  border: none;
 }
 
-.top-state-body{
+.top-state-body {
   text-decoration: none;
   color: black;
 }
@@ -89,41 +91,44 @@
   height: 28.125vw;
 }
 
-@media (max-width: 1400px){
-  .hero-caption{
+@media (max-width: 1400px) {
+  .hero-caption {
     max-width: 400px !important;
   }
 }
 
-@media (max-width: 1024px){
-  .rec-arrow{
-    display:none;
+@media (max-width: 1024px) {
+  .rec-arrow {
+    display: none;
   }
 }
 
-@media (max-width: 770px ){
+@media (max-width: 770px) {
   .header {
     font-size: 30px !important;
     font-weight: normal;
   }
-  .hero-caption{
+  .hero-caption {
     max-width: 300px !important;
+  }
+  #video iframe {
+    width: 90vw;
+    height: 50.625vw;
   }
 }
 
-@media (max-width: 540px){
-  .hero-caption{
+@media (max-width: 540px) {
+  .hero-caption {
     max-width: 250px !important;
   }
 }
 
-@media (max-width: 450px){
-  .hero-caption{
+@media (max-width: 450px) {
+  .hero-caption {
     max-width: 100px !important;
   }
-  .hero-caption-container{
+  .hero-caption-container {
     width: 100%;
     top: 50%;
-
   }
 }

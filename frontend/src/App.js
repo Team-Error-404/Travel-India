@@ -2,14 +2,11 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // bootstrap css
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./assets/css/styles.css"
+import "./assets/css/styles.css";
 // Components
 import Page_State from "./components/Page_State";
-<<<<<<< HEAD
-import Home from "./components/Home"
-=======
+import Home from "./components/Home";
 import Page_Top_Place from "./components/Page_Top_Place";
->>>>>>> a67a74d0042cae0687c180d2af350bb227918620
 
 import firebase from "firebase";
 
@@ -23,7 +20,7 @@ var firebaseConfig = {
   measurementId: "G-9PLLDG648Z",
 };
 // Initialize Firebase
-// firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
 function App() {
   return (

@@ -9,14 +9,23 @@ html {
 }
 body {
   background-color: rgb(235, 235, 235);
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  /* text-align: center; */
 }
 
-footer{
+footer {
   text-align: left;
 }
 
-footer #social{
+footer #social {
   text-align: center;
+}
+.header {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+#rating-container label {
+  font-size: 25px;
 }

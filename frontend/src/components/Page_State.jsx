@@ -2,6 +2,8 @@ import React from 'react'
 import '../assets/css/state.css'
 
 import StarRatingComponent from 'react-star-rating-component';
+import NavBar from './NavBar'
+import Footer from './Footer'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
@@ -23,13 +25,14 @@ function Page_State(props) {
     }
     return (
         <>
+            <NavBar />
             <div className="banner" style={bgStyle}>
                 <h1>{state}</h1>
                 <p>{data.tagLine}</p>
             </div>
-            <h2 className='text-center text-uppercase mt-5'>Top places to explore</h2>
+            <h2 className='mt-5 header'>Top places to explore</h2>
             <div className="container">
-                <div className="row mt-2">
+                <div className="row mt-2 mx-auto">
                     {
                         data.topPlaces.map(place => {
                             return (
@@ -39,8 +42,8 @@ function Page_State(props) {
                     }
                 </div>
                 {/* top foods */}
-                <h2 className='text-center mt-5 text-uppercase'>Must try Foods</h2>
-                <div className="row mt-2">
+                <h2 className='mt-5 header'>Must try Foods</h2>
+                <div className="row mt-2 mb-4 mx-auto">
                     {
                         data.topFoods.map(food => {
                             return (
@@ -50,6 +53,7 @@ function Page_State(props) {
                     }
                 </div>
             </div>
+            <Footer />
         </>
     )
 }
