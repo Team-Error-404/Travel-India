@@ -1,0 +1,137 @@
+
+#contact {
+  width: 100%;
+  margin-bottom: 50px;
+}
+#contact #main {
+  display: flex;
+}
+#contact h1 {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  color: #494848;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 35px;
+}
+#map {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#details {
+  width: 50%;
+  height: 100%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 50px;
+}
+#details h2 {
+  color: #f8a12d;
+}
+#details p {
+  color: #494848;
+}
+#details #mail {
+  color: #494848;
+}
+#social {
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+#social a {
+  background-color: rgba(44, 48, 68, 0.9);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  margin-left: 5px;
+}
+#social a .social-icons {
+  color: #fff;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  padding: 8px 10px;
+}
+
+@media (max-width: 990px) {
+  .coloumn {
+    margin-bottom: 20px;
+  }
+  #contact {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  #contact #main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #contact h1 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: #494848;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 25px;
+  }
+  #map {
+    width: 100%;
+    height: 50%;
+  }
+  #details {
+    width: 100%;
+    height: 50%;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+  }
+  #details h2 {
+    color: #f8a12d;
+    font-size: 22px;
+  }
+  #details p {
+    color: #494848;
+    font-size: 16px;
+  }
+  #details #mail {
+    color: #494848;
+  }
+  #social {
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  #social a {
+    background-color: #494848;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  #social a i {
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    padding: 8px 10px;
+  }
+}
+
+.footer{
+  position: relative;
+  bottom: -2rem;
+  width: 100%;
+}
