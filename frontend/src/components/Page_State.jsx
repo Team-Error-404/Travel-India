@@ -27,24 +27,24 @@ function Page_State(props) {
                 <h1>{state}</h1>
                 <p>{data.tagLine}</p>
             </div>
-            <h2 className='text-center'>Top places</h2>
+            <h2 className='text-center text-uppercase mt-5'>Top places to explore</h2>
             <div className="container">
-                <div className="row mt-4">
+                <div className="row mt-2">
                     {
                         data.topPlaces.map(place => {
                             return (
-                                < Card_Top_Places place={place} />
+                                <Card_Top_Places place={place} />
                             )
                         })
                     }
                 </div>
                 {/* top foods */}
-                <h2 className='text-center mt-5'>Top Foods</h2>
-                <div className="row mt-4">
+                <h2 className='text-center mt-5 text-uppercase'>Must try Foods</h2>
+                <div className="row mt-2">
                     {
                         data.topFoods.map(food => {
                             return (
-                                < Card_Top_Foods food={food} />
+                                <Card_Top_Foods food={food} />
                             )
                         })
                     }

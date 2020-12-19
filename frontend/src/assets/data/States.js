@@ -3,9 +3,9 @@
 import odisha_bg from "../img/odisha/bg.jpg";
 
 // places
-import puri from "../img/odisha/puri.jpg";
-import gopalpur from "../img/odisha/gopalpur.jpg";
-import lingaraj from "../img/odisha/lingaraj.jpg";
+import puri from "../img/odisha/puri1.jpg";
+import gopalpur from "../img/odisha/gopalpur1.jpg";
+import lingaraja from "../img/odisha/lingaraja1.jpg";
 // foods
 import pakhala from "../img/odisha/pakhala.jpg";
 import badiChura from "../img/odisha/badi chura.jpg";
@@ -15,9 +15,9 @@ import dalma from "../img/odisha/dalma.jpg";
 // bg
 import rajasthan_bg from "../img/rajasthan/bg.jpg";
 // places
-import amberPalace from "../img/rajasthan/amber-palace.jpg";
-import rathamborePark from "../img/rajasthan/rathambore-park.jpg";
-import hawaMahal from "../img/rajasthan/hawa-mahal.jpg";
+import amberPalace from "../img/rajasthan/amber-palace1.jpg";
+import ranthamborePark from "../img/rajasthan/ranthambore-park1.jpg";
+import hawaMahal from "../img/rajasthan/hawa-mahal1.jpg";
 // foods
 import dalBaatiChurma from "../img/rajasthan/dal-baati-churma.webp";
 import kerSangri from "../img/rajasthan/ker-sangri.webp";
@@ -27,7 +27,7 @@ import onionKachori from "../img/rajasthan/onion-kachori.webp";
 // bg
 import delhi_bg from "../img/delhi/bg.jpg";
 // places
-import redFort from "../img/delhi/red-fort1.jpg";
+import redFort from "../img/delhi/red-fort2.jpg";
 import qutubMinar from "../img/delhi/qutub-minar1.jpg";
 import humayunsTomb from "../img/delhi/humayuns-tomb1.jpg";
 // foods
@@ -50,8 +50,8 @@ let states = {
         cardText: "Tranquil beach with surfing & fishing",
       },
       {
-        src: lingaraj,
-        cardTitle: "Lingaraj Temple",
+        src: lingaraja,
+        cardTitle: "Lingaraja Temple",
         cardText: "Sprawling, ancient Hindu temple compound",
       },
     ],
@@ -59,14 +59,17 @@ let states = {
       {
         src: pakhala,
         cardTitle: "Pakhala Bhata",
+        cardText: "",
       },
       {
         src: dalma,
         cardTitle: "Dalma",
+        cardText: "",
       },
       {
         src: badiChura,
         cardTitle: "Badi Chura",
+        cardText: "balana",
       },
     ],
   },
@@ -85,7 +88,7 @@ let states = {
         cardText: "Pink/red sandstone 'Palace of the Winds'",
       },
       {
-        src: rathamborePark,
+        src: ranthamborePark,
         cardTitle: "Ranthambore National Park",
         cardText: "Ranthambore Fort & Padam Talao Lake",
       },
@@ -94,14 +97,17 @@ let states = {
       {
         src: dalBaatiChurma,
         cardTitle: "Dal Baati Churma",
+        cardText: "",
       },
       {
         src: kerSangri,
         cardTitle: "Ker Sangri",
+        cardText: "",
       },
       {
         src: onionKachori,
         cardTitle: "Onion Kachori",
+        cardText: "",
       },
     ],
   },
@@ -129,14 +135,17 @@ let states = {
       {
         src: butterChicken,
         cardTitle: "Butter Chicken",
+        cardText: "",
       },
       {
         src: choleBhature,
         cardTitle: "Chole Bhature",
+        cardText: "",
       },
       {
         src: kebabs,
         cardTitle: "Kebabs",
+        cardText: "",
       },
     ],
   },
