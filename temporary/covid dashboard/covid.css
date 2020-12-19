@@ -1,0 +1,266 @@
+body
+{
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} 
+#covid-19-dashboard
+{
+    padding-top: 20px;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: rgb(250, 250, 250);
+
+}
+.covid-card{
+    color: white; text-align: center ; float:left; 
+    width: 24%; 
+    margin-right: 10px;
+    border-radius: 15px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+}
+p.change
+{
+    font-size: 22px !important;
+    margin-top: 5px !important;
+    color: rgb(163, 163, 163) !important;
+}
+#card-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.covid-card
+{
+    width: 22% !important;
+    height: 110px;
+    box-shadow: 0px 0px 8px 1px rgb(173, 173, 173);   
+}
+.covid-card::first-line
+{
+    font-size: 18px;
+}
+#card-container div{
+    width:100%;
+    font-weight: 700;
+    font-size: 40px;
+}
+#card-container p{
+    width:100%;
+    margin:0px;
+    font-size:18px ;
+}
+#covid-bttn{
+    background-color: #3A96FF;
+    color: white;
+    text-align: center ; 
+    width: 220px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    
+}
+#diagrams
+{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#card-container h1{
+    font-size: 3vw;
+}
+#label,#label2{
+    font-size: 25px;
+    width:100%;
+    font-weight: 600;
+    color: grey;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#label2{
+    font-size: 18px;
+    width:100%;
+    font-weight: 100;
+    margin-top: 5px;
+}
+#confirmed{
+    /* background-color: #DC3545; */
+    color:#DC3545 ;
+}
+#recovered{
+    /* background-color: #92DA43; */
+    color:#92DA43 ;
+}
+#active{
+    /* background-color: #FF8F00; */
+    color:#FF8F00 ;
+}
+#deceased{
+    /* background-color: #6C757D; */
+    color:#6C757D ;
+}
+#title-element,#subtitle-chart,#subtitle-piechart,#stateInfo,#label{
+    width:100%;padding:0;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#PieChart{
+    width:45%;
+    /* display:inline-block; */
+}
+#Graph{
+    width:45%;
+    
+}
+#stateInfo{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    
+    #label{
+        font-size: 30px;
+        width:100%;
+        font-weight: 600;
+    }
+    #label2{
+        font-size: 20px;
+        width:100%;
+        font-weight: 900;
+    }
+
+ #card-conatiner{
+        font-size: 2vw;;
+        width: 48%;
+        margin-bottom: 10px;
+        
+    }
+ #card-container h1{
+        font-size:4vw;
+    }
+    #PieChart{
+        
+        width:98%;
+    }
+    #Graph{
+        
+        width: 98%;
+    }
+    #yo{
+        width:100%;
+    }
+    #stateInfo{
+        font-size: 20px;
+    }
+ #buttons{
+        font-size: 20px;
+    }
+    #table
+{
+    width: 100%;
+}
+table th {
+    font-size: 18px;
+  
+  }
+  #diagrams
+{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+}
+
+  @media screen and (max-width: 768px) {
+      
+    #label{
+        font-size: 20px;
+        width:100%;
+        font-weight: 600;
+    }
+    #label2{
+        font-size: 18px;
+        width:100%;
+        font-weight: 900;
+        margin-bottom: 0;
+    }
+ #covid-card{
+        width:80%;
+        font-size: 1vw;
+        margin-bottom:1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    #stateInfo
+    {
+        font-size: 14px;
+        margin: 0;
+    }
+.covid-card::first-line
+{
+    font-size: 18px;
+}
+#card-container div{
+    width:85%;
+    font-weight: 700;
+    font-size: 30px;
+}
+#card-container p{
+    width:100%;
+    margin:0px;
+    font-size:18px ;
+}
+    #PieChart{
+        width:100%;
+    }
+    #yo{
+        width:100%;
+    }
+    #card-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.covid-card
+{
+    width: 80% !important;
+    height: 100px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px 1px rgb(173, 173, 173);
+}
+#table
+{
+    width: 100%;
+}
+table th {
+    font-size: 13px;
+    padding: 5px 0;
+  
+  }
+  }
