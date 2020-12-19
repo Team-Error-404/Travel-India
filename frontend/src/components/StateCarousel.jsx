@@ -5,7 +5,6 @@ import varanasi from '../assets/img/utter_pradesh/varanasi.jpg'
 import red_fort from '../assets/img/delhi/red_fort.jpg'
 import rajasthan from '../assets/img/rajasthan/bg.jpg'
 import odisha from '../assets/img/odisha/bg.jpg'
-import states from '../assets/data/States.js'
 //import  from '../Assets/images/taj_mahal.jpg'
 function StateCarousel() {
   const breakPoints = [
@@ -16,15 +15,6 @@ function StateCarousel() {
   ]
   return (
     <Carousel breakPoints={breakPoints} className="top-states">
-      <Link className="px-3 nav-link state" to="/states/UtterPradesh" >
-        <div className="card" >
-          <img src={varanasi} className="card-img-top" alt="..." />
-          <div className="card-body top-state-body">
-            <h3>Uttar Pradesh</h3>
-            <p className="card-text text-muted text-left">Home to one of the Seven Wonders of the World and flaunting exquisite arts like the handicrafts and jewellery Uttar Pradesh is a bountiful state and an utterly religious one. It is the home to some of the most beautiful monuments and cultural sights in India.</p>
-          </div>
-        </div>
-      </Link>
       <Link className="px-3 nav-link state" to="/states/Delhi">
         <div className="card" >
           <img src={red_fort} className="card-img-top" alt="..." />
@@ -52,16 +42,15 @@ function StateCarousel() {
           </div>
         </div>
       </Link>
-      <Link className="px-3 nav-link state" to="/">
+      <Link className="px-3 nav-link state" to="/states/UtterPradesh" >
         <div className="card" >
-          <img src={red_fort} className="card-img-top" alt="..." />
+          <img src={varanasi} className="card-img-top" alt="..." />
           <div className="card-body top-state-body">
-            <h3>State 5</h3>
-            <p className="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h3>Uttar Pradesh</h3>
+            <p className="card-text text-muted text-left">Home to one of the Seven Wonders of the World and flaunting exquisite arts like the handicrafts and jewellery Uttar Pradesh is a bountiful state and an utterly religious one. It is the home to some of the most beautiful monuments and cultural sights in India.</p>
           </div>
         </div>
       </Link>
-
     </Carousel>
   )
 }

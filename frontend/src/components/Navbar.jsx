@@ -22,11 +22,11 @@ const NavBar = () => {
               <a className="nav-link" href="/">HOME</a>
             </li>
             <li className="nav-item dropdown  px-2">
-              <div className="nav-link dropdown-toggle" >GO TO DESTINATIONS</div>
+              <div className="nav-link dropdown-toggle" >EXPLORE STATES</div>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="/">a</a></li>
-                <li><a className="dropdown-item" href="/"> a</a></li>
-                <li><a className="dropdown-item" href="/">a</a></li>
+                <li><a className="dropdown-item" href="/states/Odisha">Odisha</a></li>
+                <li><a className="dropdown-item" href="/states/Delhi">Delhi</a></li>
+                <li><a className="dropdown-item" href="/states/Rajasthan">Rajasthan</a></li>
               </ul>
             </li>
             <li className="nav-item  px-2">

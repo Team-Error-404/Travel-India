@@ -133,15 +133,13 @@ function Page_Top_Place(props) {
             <h1 className="header mb-4">Reviews</h1>
             <div id='review-container' className='py-4'>
                 <div className="container mx-auto" >
-                    <div>
-                        {oldReviews && oldReviews.map(review => <Review key={Math.random()} review={review} />)}
-                        <div className="row">
-                            <form className='col-md-8 mb-3 mx-auto' id='review-form' onSubmit={handleSubmit}>
-                                <input type="text" name="name" className="form-control mb-2" placeholder="Name" value={name} required onChange={e => setName(e.target.value)} />
-                                <input type="text" name="review" className="form-control mb-2" placeholder="Review" value={review} required onChange={e => setReview(e.target.value)} />
-                                <button className='btn btn-theme btn-block' type='submit'>Review</button>
-                            </form>
-                        </div>
+                    {oldReviews && oldReviews.map(review => <Review key={Math.random()} review={review} />)}
+                    <div className="row mx-auto">
+                        <form className='col-md-8 mb-3 mx-auto' id='review-form' onSubmit={handleSubmit}>
+                            <input type="text" name="name" className="form-control mb-2" placeholder="Name" value={name} required onChange={e => setName(e.target.value)} />
+                            <input type="text" name="review" className="form-control mb-2" placeholder="Review" value={review} required onChange={e => setReview(e.target.value)} />
+                            <button className='btn btn-theme btn-block' type='submit'>Review</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -154,7 +152,7 @@ const Review = (props) => {
     let time = props.review.time.split(',')[0];
     return (
         <div className="row no-gutters justify-content-flex-start mt-3 mx-auto">
-            <div className="col-10 col-sm-8 mx-auto">
+            <div className="col-md-8 mx-auto px-2">
                 <div className=" mr-2">
                     {props.review.name}
                 </div>
@@ -162,7 +160,6 @@ const Review = (props) => {
                     <div className="message-content">{props.review.review}<small className="float-right">{time}</small></div>
                 </div>
             </div>
-
         </div>
     )
 
