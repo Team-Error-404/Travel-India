@@ -2,10 +2,14 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // bootstrap css
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import "./assets/css/styles.css"
 // Components
 import Page_State from "./components/Page_State";
+<<<<<<< HEAD
+import Home from "./components/Home"
+=======
 import Page_Top_Place from "./components/Page_Top_Place";
+>>>>>>> a67a74d0042cae0687c180d2af350bb227918620
 
 import firebase from "firebase";
 
@@ -27,6 +31,7 @@ function App() {
       {/* // routers */}
       <Router>
         <Switch>
+          <Route exact path="/" component={Home} />
           <Route exact path="/states/:state" component={Page_State} />
           <Route exact path="/top-places/:place" component={Page_Top_Place} />
         </Switch>

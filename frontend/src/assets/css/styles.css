@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(235, 235, 235);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+footer{
+  text-align: left;
+}
+
+footer #social{
+  text-align: center;
+}
