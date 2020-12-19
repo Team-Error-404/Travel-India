@@ -5,7 +5,7 @@ import varanasi from '../assets/img/utter_pradesh/varanasi.jpg'
 import red_fort from '../assets/img/delhi/red_fort.jpg'
 import rajasthan from '../assets/img/rajasthan/bg.jpg'
 import odisha from '../assets/img/odisha/bg.jpg'
-import states from '../assets/data/states.js'
+import states from '../assets/data/States.js'
 //import  from '../Assets/images/taj_mahal.jpg'
 function StateCarousel() {
   const breakPoints = [

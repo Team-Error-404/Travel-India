@@ -7,7 +7,10 @@ import "./assets/css/styles.css";
 import Page_State from "./components/Page_State";
 import Home from "./components/Home";
 import Page_Top_Place from "./components/Page_Top_Place";
-
+import Bookings from './components/Bookings'
+import flights from './assets/data/flight'
+import hotels from './assets/data/hotels'
+import packages from './assets/data/packages'
 import firebase from "firebase";
 
 var firebaseConfig = {
@@ -31,6 +34,15 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/states/:state" component={Page_State} />
           <Route exact path="/top-places/:place" component={Page_Top_Place} />
+          <Route exact path="/book-hotels">
+            <Bookings data={hotels} />
+          </Route>
+          <Route exact path="/book-flights">
+            <Bookings data={flights} />
+          </Route>
+          <Route exact path="/book-package">
+            <Bookings data={packages} />
+          </Route>
         </Switch>
       </Router>
     </>

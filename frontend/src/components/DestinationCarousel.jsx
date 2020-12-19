@@ -21,7 +21,7 @@ function DestinationCarousel() {
           <div className="card-body top-state-body">
             <h3>Taj Mahal, Agra</h3>
             <h5>Uttar Pradesh</h5>
-            <p className="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-muted text-left">One of the seven wonders of the world, Taj Mahal is located on the banks of River Yamuna in Agra. It was built by the Mughal Emperor Shah Jahan as a memorial for his third wife, Mumtaz Mahal. Constructed entirely out of white marble in the 17th century, Taj Mahal is one of the most beautiful monuments in the world.</p>
           </div>
         </div>
       </Link>

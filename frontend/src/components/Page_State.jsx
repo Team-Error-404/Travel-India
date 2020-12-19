@@ -2,7 +2,7 @@ import React from 'react'
 import '../assets/css/state.css'
 
 import StarRatingComponent from 'react-star-rating-component';
-import NavBar from './NavBar'
+import NavBar from './Navbar'
 import Footer from './Footer'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

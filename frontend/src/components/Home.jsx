@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Footer from './Footer'
-import NavBar from './NavBar'
+import Navbar from './Navbar'
 import hero_image from '../assets/img/hero_image.jpg'
 import hero_caption from '../assets/img/hero-caption.png'
+import flight from '../assets/img/Bookings/flight.jpg'
+import hotel from '../assets/img/Bookings/hotel.jpg'
+import pack from '../assets/img/Bookings/package.jpg'
 import "../assets/css/home.css"
 import "../assets/css/covid.css"
 import StateCarousel from './StateCarousel'
@@ -20,7 +23,7 @@ const Home = () => {
 
   return (
     <>
-      <NavBar />
+      <Navbar />
       {/* <section> */}
 
       <div className='hero-image'>
@@ -30,8 +33,8 @@ const Home = () => {
         </div>
       </div>
       {/* </section> */}
-      <section id="covid-19-dashboard" className="bg-light container mb-5">
-        <h2 className="pt-5 mt-2 header">COVID DASHBOARD</h2>
+      <section id="covid-19-dashboard" className="container py-5 bg-light ">
+        <h2 className="mt-2 pb-3 header">COVID DASHBOARD</h2>
         <div id="card-container">
           <div id="confirmed" className="covid-card">Confirmed:<br />{confirmed}</div>
           <div id="recovered" className="covid-card">Recovered:<br />{recovered}</div>
@@ -55,6 +58,29 @@ const Home = () => {
         <section className="top-states my-5">
           <h2 className="header">EXPLORE FOODS</h2>
           <FoodCarousel />
+        </section>
+        <section id="shorcuts">
+          <h2 className="header mb-3 explore">MAKE YOUR PLANS</h2>
+          <div className="card-deck">
+            <div className="card">
+              <a href="/book-flights" className="card-link">
+                  <img src={flight} className="card-img-top" alt="Flight" />
+                  <span>BOOK FLIGHT</span>
+              </a>
+            </div>
+            <div className="card">
+              <a href="/book-hotels" className="card-link">
+                <img src={hotel} className="card-img-top" alt="Hotel" />
+                <span>BOOK HOTELS</span>
+              </a>
+            </div>
+            <div className="card">
+              <a href="/book-package" className="card-link">
+                <img src={pack} className="card-img-top" alt="package" />
+                <span>BOOK PACKAGE</span>
+              </a>
+            </div>
+          </div>
         </section>
       </main>
       <Footer />
