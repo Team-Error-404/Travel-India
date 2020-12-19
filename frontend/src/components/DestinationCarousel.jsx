@@ -21,7 +21,7 @@ function DestinationCarousel() {
           <div class="card-body top-state-body">
             <h3>Taj Mahal, Agra</h3>
             <h5>Utter Pradesh</h5>
-            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-muted text-left">One of the seven wonders of the world, Taj Mahal is located on the banks of River Yamuna in Agra. It was built by the Mughal Emperor Shah Jahan as a memorial for his third wife, Mumtaz Mahal. Constructed entirely out of white marble in the 17th century, Taj Mahal is one of the most beautiful monuments in the world.</p>
           </div>
         </div>
       </Link>
@@ -31,7 +31,7 @@ function DestinationCarousel() {
           <div class="card-body top-state-body">
             <h3>Jagannath Puri, Puri</h3>
             <h5>Odisha</h5>
-            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-muted text-left">Located in the sacred town of Puri, the Jagannath Temple or the pride of India . This glorious temple is the abode of Lord Jagannath who is a form of Lord Vishnu. It is the most revered pilgrimage site for Hindus and is included in the pious Char Dham Yatra with Badrinath, Dwarka and Rameshwaram.</p>
           </div>
         </div>
       </Link>
@@ -41,7 +41,7 @@ function DestinationCarousel() {
           <div class="card-body top-state-body">
             <h3>City Palace, Udaipur</h3>
             <h5>Rajasthan</h5>
-            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-muted text-left">Built on the banks of Lake Pichola, the City Palace in Udaipur is considered to be the largest royal complex in Rajasthan. The magnificent palace was built in the year 1559 by Maharana Uday Singh and served as the main seat of power, where the Maharanas lived and administered the kingdom from.</p>
           </div>
         </div>
       </Link>
@@ -49,9 +49,9 @@ function DestinationCarousel() {
         <div class="card" >
           <img src={red_fort} class="card-img-top" alt="..." />
           <div class="card-body top-state-body">
-            <h3>Delhi</h3>
-            <h5>Deelhi</h5>
-            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h3>Red Fort, Delhi</h3>
+            <h5>Delhi</h5>
+            <p class="card-text text-muted text-left">The Red Fort is a historical fortification in the old Delhi area. Shah Jahan constructed it in the year 1639 as a result of a capital shift from Agra to Delhi. Used as the main residence of the emperors of the Mughal dynasty, this imposing piece of architecture derives its name from its impregnable red sandstone walls.</p>
           </div>
         </div>
       </Link>

@@ -8,9 +8,10 @@ nav {
   width: 75px;
 }
 .nav-link {
-  font-size: 0.9rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 550;
   color: #acacac !important;
+  border-bottom: 3px solid rgba(44, 48, 68, 0);
   font-family: "Lato", sans-serif !important;
 }
 .nav--active {
@@ -26,6 +27,7 @@ button.navbar-toggler {
 .active > a {
   color: white !important;
   border-bottom: 3px solid #f8a12d;
+  font-weight: 600;
 }
 
 .dropdown:hover .dropdown-menu{

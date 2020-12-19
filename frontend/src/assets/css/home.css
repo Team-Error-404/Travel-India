@@ -5,11 +5,12 @@
 
 .hero-container{
   position: relative;
+  background: rgba(0, 0, 0, 1);
 }
-
 .hero-img{
   width: 100vw;
   height: auto;
+  opacity: 0.5;
 }
 
 .hero-caption-container{

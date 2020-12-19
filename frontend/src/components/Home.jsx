@@ -17,7 +17,7 @@ const Home = () => {
   
   
   return (
-    <div className="">
+    <div className="bg-light">
       <Navbar />
       <section>
         <div class="hero-container">
@@ -27,13 +27,13 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section id="covid-19-dashboard" className="bg-light container mb-5">
-        <h2 className="pt-5 mt-2 header">COVID DASHBOARD</h2>
+      <section id="covid-19-dashboard" className="bg-light container mb-5 p-4">
+        <h4 className=" text-muted">COVID DASHBOARD</h4>
         <div id="card-container">
-            <div id="confirmed" class="covid-card">Confirmed:<br/>{confirmed}</div>
-            <div id="recovered" class="covid-card">Recovered:<br/>{recovered}</div>
-            <div id="active" class="covid-card">Active:<br/>{active}</div>
-            <div id="deceased" class="covid-card">Deceased:<br/>{deceased}</div>
+            <div id="confirmed" class="covid-card">CONFIRMED<br/>{confirmed}</div>
+            <div id="recovered" class="covid-card">RECOVERED<br/>{recovered}</div>
+            <div id="active" class="covid-card">ACTIVE<br/>{active}</div>
+            <div id="deceased" class="covid-card">DECEASED  <br/>{deceased}</div>
         </div>
       </section>
       <main class="main-container ">

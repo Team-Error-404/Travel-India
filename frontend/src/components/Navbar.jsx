@@ -10,11 +10,11 @@ const Navbar = () => {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item px-2">
+          <ul class="navbar-nav m-auto ">
+            <li class="nav-item px-2 pt-3">
               <a class="nav-link" href="/">HOME</a>
             </li>
-            <li class="nav-item dropdown  px-2">
+            <li class="nav-item dropdown pt-3  px-2">
               <div class="nav-link dropdown-toggle" >GO TO DESTINATIONS</div>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="/">a</a></li>
@@ -22,13 +22,13 @@ const Navbar = () => {
                 <li><a class="dropdown-item" href="/">a</a></li>
               </ul>
             </li>
-            <li class="nav-item  px-2">
+            <li class="nav-item pt-3 px-2">
               <a class="nav-link" href="/">COVID DASHBOARD</a>
           </li>
-            <li class="nav-item  px-2">
+            <li class="nav-item pt-3 px-2">
                 <a class="nav-link" href="#shorcuts">MAKE PLANS</a>
               </li>
-            <li class="nav-item  px-2">
+            <li class="nav-item pt-3 px-2">
               <a class="nav-link" href="#contactus">CONTACT US</a>
             </li> 
           </ul>

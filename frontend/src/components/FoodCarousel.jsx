@@ -20,7 +20,7 @@ function FoodCarousel() {
           <img src={chena_poda} class="card-img-top" alt="..."/>
           <div class="card-body top-state-body">
             <h3>Chena Poda</h3>
-            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-muted text-left">Chhena poda is a cheese dessert from the Indian state of Odisha. Chhena poda literally means Roasted Cheese in Odia.It is made of well-kneaded homemade fresh cheese chhena, sugar is baked for several hours until it browns. Chhena poda is the only well known Indian dessert whose flavor is predominantly derived from the caramelization of sugar.</p>
           </div>
         </div>
       </Link>
@@ -29,7 +29,7 @@ function FoodCarousel() {
           <img src={chole_bhature} class="card-img-top" alt="..." />
           <div class="card-body top-state-body">
             <h3>Chole Bhature</h3>
-            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-muted">Chole bhature is a food dish originating from northern India. However, in India, Delhi Chole Bhature is very popular.It is a combination of chana masala and bhatura/Puri, a fried bread made from maida. There is a distinct Punjabi variant of the dish. The dish is also very popular in Pakistan as a breakfast meal.</p>
           </div>
         </div>
       </Link>
@@ -38,7 +38,7 @@ function FoodCarousel() {
           <img src={galouti_kebab} class="card-img-top" alt="..."/>
           <div class="card-body top-state-body">
             <h3>Galouti Kebab</h3>
-            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-muted">Tunde Ke Kabab, also known as Buffalo meat galouti kebab, is a dish made out of minced meat which is popular in Lucknow, India. Tunde ke kabab were introduced to the Nawab of Awadh Wajid Ali Shah. Lucknow’s iconic eating joint Tunday Kababi, started in 1905, is famous for serving buffalo meat galouti kebab.</p>
           </div>
         </div>
       </Link>
@@ -47,7 +47,7 @@ function FoodCarousel() {
           <img src={laal_maas} class="card-img-top" alt="..." />
           <div class="card-body top-state-body">
             <h3>Laal Maas</h3>
-            <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-muted">Laal maans is a meat curry from Rajasthan, India. It is a mutton curry prepared in a sauce of yoghurt and hot spices such as red Mathania chillies. This dish typically is very hot and rich in garlic, the gravy may be thick or liquid and is eaten with chapatis made out of wheat or bajra.</p>
           </div>
         </div>
       </Link>
