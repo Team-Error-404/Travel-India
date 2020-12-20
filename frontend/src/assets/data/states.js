@@ -59,17 +59,17 @@ let states = {
       {
         src: pakhala,
         cardTitle: "Pakhala Bhata",
-        cardText: "",
+        cardText: "Pakhaḷais an Odia term for an Indian food consisting of cooked rice washed or a little fermented in water. The liquid part is known as torani.t is a preparation that is had during summer, although many families and communities eat it throughout the year, especially for lunch.",
       },
       {
         src: dalma,
         cardTitle: "Dalma",
-        cardText: "",
+        cardText: "Dalma is a Chickpea Dal Cooked With Vegetables and Raw Papaya, a delicacy from the state of Orissa. It can be made using toor (arhar) dal, and an assortment of vegetables typically raw banana, eggplant, green papaya and pumpkins, simmered in a special spice blend.Serve the Oriya Special Dalma as a delicious one-pot dal along with steamed rice or jeera pulao.",
       },
       {
         src: badiChura,
         cardTitle: "Badi Chura",
-        cardText: "balana",
+        cardText: "The badi chura is an authentic recipe of Odisha state. Badi is sun-dried lentil dumpling and chura means a coarse mixture of badi, onion, garlic, green chilli along with mustard oil. Nowadays there are varieties of badi available. But traditionally, soaked black gram or urad dal is grinded to a paste along with some water. ",
       },
     ],
   },
@@ -97,17 +97,17 @@ let states = {
       {
         src: dalBaatiChurma,
         cardTitle: "Dal Baati Churma",
-        cardText: "",
+        cardText: "A traditional rajasthani delicacy recipe made from dal, bati or wheat rolls and churma which is powdered wheat ball. it is generally served for lunch or dinner by mixing the dal with crushed baati and ghee topped on it.",
       },
       {
         src: kerSangri,
         cardTitle: "Ker Sangri",
-        cardText: "",
+        cardText: "The Ker Sangri Recipe is a traditional Rajasthani dish that is made from with a combination of dried beans and berries that are grown locally in Rajasthan. It is often made into a spicy dry vegetable, but, I have added a little bit of sweetness to the spice and the taste was delectable. ",
       },
       {
         src: onionKachori,
         cardTitle: "Onion Kachori",
-        cardText: "",
+        cardText: "Pyaaz ki Kachori is a kind of Rajasthani snack, a fried pastry filled with a spicy onion filling. This glorious delicacy is not to be missed. It is one of the most famous spicy snacks from Jaipur and vicinity.",
       },
     ],
   },
@@ -135,17 +135,17 @@ let states = {
       {
         src: butterChicken,
         cardTitle: "Butter Chicken",
-        cardText: "",
+        cardText: "Butter Chicken is one of the most popular curries at any Indian restaurant around the world. Aromatic golden chicken pieces in an incredible creamy curry sauce, this Butter Chicken recipe is one of the best you will try! ",
       },
       {
         src: choleBhature,
         cardTitle: "Chole Bhature",
-        cardText: "",
+        cardText: "Chole bhature is a food dish originating from northern India. However, in India, Delhi Chole Bhature is very popular.It is a combination of chana masala and bhatura/Puri, a fried bread made from maida. There is a distinct Punjabi variant of the dish. The dish is also very popular in Pakistan as a breakfast meal.",
       },
       {
         src: kebabs,
         cardTitle: "Kebabs",
-        cardText: "",
+        cardText: "Kebabs are various cooked meat dishes, with their origins in Middle Eastern cuisine. Numerous variants are popular around the world. In many parts of Asia, the Muslim world, and in Indian English and the languages of the Middle East, a kebab is any of a wide variety of grilled meat dishes. ",
       },
     ],
   },

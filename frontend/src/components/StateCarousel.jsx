@@ -1,11 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Carousel from 'react-elastic-carousel'
 import { Link } from 'react-router-dom'
-import varanasi from '../assets/img/utter_pradesh/varanasi.jpg'
 import red_fort from '../assets/img/delhi/red_fort.jpg'
 import rajasthan from '../assets/img/rajasthan/bg.jpg'
 import odisha from '../assets/img/odisha/bg.jpg'
-//import  from '../Assets/images/taj_mahal.jpg'
 function StateCarousel() {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -39,15 +37,6 @@ function StateCarousel() {
           <div className="card-body top-state-body">
             <h3>Odisha</h3>
             <p className="card-text text-muted text-left">Odisha- the land of paddy fields and palm-fringed silver beaches, temples, rivers, waterfalls and tribal people, is filled with major attractions such as the temples of Bhubaneshwar and Puri, miles of clean beaches and the magnificent Sun Temple of Konark.</p>
-          </div>
-        </div>
-      </Link>
-      <Link className="px-3 nav-link state" to="/states/UttarPradesh" >
-        <div className="card" >
-          <img src={varanasi} className="card-img-top" alt="..." />
-          <div className="card-body top-state-body">
-            <h3>Uttar Pradesh</h3>
-            <p className="card-text text-muted text-left">Home to one of the Seven Wonders of the World and flaunting exquisite arts like the handicrafts and jewellery Uttar Pradesh is a bountiful state and an utterly religious one. It is the home to some of the most beautiful monuments and cultural sights in India.</p>
           </div>
         </div>
       </Link>
