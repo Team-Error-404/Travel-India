@@ -55,7 +55,7 @@ function DestinationCarousel() {
           </div>
         </div>
       </Link>
-      <Link className="px-3 nav-link state" to="/">
+      {/* <Link className="px-3 nav-link state" to="/">
         <div className="card" >
           <img src={red_fort} className="card-img-top" alt="..." />
           <div className="card-body top-state-body">
@@ -64,7 +64,7 @@ function DestinationCarousel() {
             <p className="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
-      </Link>
+      </Link> */}
 
     </Carousel>
   )

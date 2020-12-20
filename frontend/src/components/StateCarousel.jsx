@@ -42,7 +42,7 @@ function StateCarousel() {
           </div>
         </div>
       </Link>
-      <Link className="px-3 nav-link state" to="/states/UtterPradesh" >
+      {/* <Link className="px-3 nav-link state" to="/states/UtterPradesh" >
         <div className="card" >
           <img src={varanasi} className="card-img-top" alt="..." />
           <div className="card-body top-state-body">
@@ -50,7 +50,7 @@ function StateCarousel() {
             <p className="card-text text-muted text-left">Home to one of the Seven Wonders of the World and flaunting exquisite arts like the handicrafts and jewellery Uttar Pradesh is a bountiful state and an utterly religious one. It is the home to some of the most beautiful monuments and cultural sights in India.</p>
           </div>
         </div>
-      </Link>
+      </Link> */}
     </Carousel>
   )
 }

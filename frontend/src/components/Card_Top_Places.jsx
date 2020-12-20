@@ -32,7 +32,7 @@ function Card_Top_Places(props) {
                                 <FontAwesomeIcon icon={faUser} className='mt-3 mr-1' /><span>{user}</span>
                             </div>
                         </div>
-                        {props.place.cardText}
+                        <p className="text-muted">{props.place.cardText}</p>
                     </div>
                 </a>
             </div>
