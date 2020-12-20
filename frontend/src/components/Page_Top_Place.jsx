@@ -25,10 +25,8 @@ function Page_Top_Place(props) {
             count: count + nextValue,
             user: user + 1
         }).then(() => {
-            console.log(user);
             localStorage.setItem(`${id + '_user'}`, `${user + 1}`);
             localStorage.setItem(`${id + '_count'}`, `${count + nextValue}`);
-            console.log('saved')
         })
             .catch(err => console.log(err));
     }
@@ -37,15 +35,11 @@ function Page_Top_Place(props) {
     let place = title.replace(/[^a-zA-Z ]/g, "");
     let id = place.replace(/\s+/g, "");
 
-    console.log(id);
-
     // rating count and user count
     let count = Number(localStorage.getItem(`${id + '_count'}`));
     let user = Number(localStorage.getItem(`${id + '_user'}`));
 
-    console.log(place);
     let data = top_places[place];
-    console.log(data);
 
     // load reviews
     useEffect(() => {
@@ -55,7 +49,6 @@ function Page_Top_Place(props) {
     // save review to firebase
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(name, review);
         try {
             await firebase.database().ref('reviews').child(id).push({
                 name: name,
@@ -64,9 +57,8 @@ function Page_Top_Place(props) {
             });
             setName('');
             setReview('');
-            console.log('review saved');
         } catch (err) {
-            console.log(err.message);
+            console.log(err);
         }
     }
 
@@ -74,14 +66,9 @@ function Page_Top_Place(props) {
     const loadMessages = () => {
         try {
             firebase.database().ref('reviews').child(id).on('value', chats => {
-                // console.log(chats.exists());
-                // console.log(chats.val());
                 if (chats.val() != null) {
                     const values = Object.values(chats.val());
-                    console.log('old msgs');
                     setOldReviews(values);
-                    // document.getElementById('messages').scrollTo(0, 1000000);
-                    // document.getElementById('view').scrollIntoView();
                 }
             })
         }
@@ -93,20 +80,20 @@ function Page_Top_Place(props) {
     return (
         <>
             <Navbar />
-            <div className="container" style={{ marginTop: '62' + 'px', paddingTop: '20' + 'px' }}>
+            <div className="container" style={{ marginTop: '72' + 'px', paddingTop: '20' + 'px' }}>
                 <div className="row mx-auto">
                     <div className="col-md-8">
                         <Carousel>
                             {data.slides.map(slide => {
                                 return (
-                                    <Carousel.Item>
+                                    <Carousel.Item key={Math.random()}>
                                         <img src={slide} className="d-block w-100" id="img1" alt="alt" />
                                     </Carousel.Item>
                                 )
                             })}
                         </Carousel>
                     </div>
-                    <div className="col-md-4 mt-4 mt-md-0 px-4 pt-1" id='rating-container'>
+                    <div className="col-md-4 mt-4 mt-md-0 px-4 pt-2" id='rating-container'>
                         <h4 className='text-uppercase'>{title}</h4>
                         <p>{data.text}</p>
                         <StarRatingComponent

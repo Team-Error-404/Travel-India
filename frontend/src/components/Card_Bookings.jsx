@@ -9,7 +9,7 @@ function Card_Bookings(props) {
                     <div className="card-body">
                         <h5 className="card-title">{props.data.cardtitle}</h5>
                         <p className="card-text">{props.data.cardtext}</p>
-                        <span class="book">Book Now</span>
+                        <span className="book">Book Now</span>
                     </div>
                 </a>
             </div>

@@ -18,7 +18,6 @@ function Dashboard(props) {
         fetch(covidapi).then((response) => {
             return response.json();
         }).then((mydata) => {
-            console.log(mydata[STATE_code].total.confirmed);
             elt = mydata[STATE_code].total;
             active = elt.confirmed - elt.recovered - elt.deceased;
             const data = {
@@ -84,7 +83,6 @@ function Dashboard(props) {
         const ctx = document.getElementById('chart').getContext('2d');
         var t = document.getElementById("subtitle-chart");
         t.innerHTML = `Date Wise New Cases : ${state}`;
-        console.log(state);
         const myChart = new Chart(ctx, {
             type: 'line', fill: false,
             data: {
@@ -175,9 +173,7 @@ function Dashboard(props) {
             if (elt.country == 'India') { data2 = elt; return; }
         })
         var data = await response.json();
-        console.log(data[STATE_code].total);
         var pin5 = document.getElementById('title-element');
-        console.log(data2);
         var pin6 = document.getElementById("label");
         pin6.innerHTML = `COVID19 Dashboard of ` + state
         var updatedFormatted = new Date(data2.updated).toLocaleString();
@@ -187,7 +183,6 @@ function Dashboard(props) {
     }
     // checks if we want the dashboard of india or of any particular state
     if (STATE_code == undefined) {
-        console.log("error")
         var STATE_code = 'TT';
         var state = "India";
         displaydata();

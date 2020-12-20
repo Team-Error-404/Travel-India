@@ -23,10 +23,6 @@ const Home = () => {
       querySnapshot.forEach(doc => {
         localStorage.setItem(`${doc.data().id + '_count'}`, `${doc.data().count}`);
         localStorage.setItem(`${doc.data().id + '_user'}`, `${doc.data().user}`);
-        console.log(`${doc.data().id + '_count'}`);
-        console.log(`${doc.data().count}`);
-        console.log(`${doc.data().id + '_user'}`);
-        console.log(`${doc.data().user}`);
       });
     })
   }, []);
@@ -42,7 +38,7 @@ const Home = () => {
       <Dashboard />
       <main className="main-container ">
         <section id="video" className='mt-3'>
-          <h2 className="header mb-4 ">INDIA AT GLANCE </h2>
+          <h2 className="header mb-4 ">INDIA AT A GLANCE </h2>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/77czO8sxABI" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </section>
         <section className="top-states my-5">
