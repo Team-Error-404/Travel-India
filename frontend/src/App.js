@@ -7,12 +7,13 @@ import "./assets/css/styles.css";
 import Page_State from "./components/Page_State";
 import Home from "./components/Home";
 import Page_Top_Place from "./components/Page_Top_Place";
-import Bookings from './components/Bookings'
-import flights from './assets/data/flight'
-import hotels from './assets/data/hotels'
-import packages from './assets/data/packages'
+import Bookings from "./components/Bookings";
+import flights from "./assets/data/flight";
+import hotels from "./assets/data/hotels";
+import packages from "./assets/data/packages";
 import firebase from "firebase";
 import Contact from "./components/Contact";
+import Guidelines from "./components/Guidelines";
 
 var firebaseConfig = {
   apiKey: "AIzaSyArdj2c68cpKizabT8mcPeaqVYXk7f5Zcg",
@@ -45,6 +46,7 @@ function App() {
             <Bookings data={packages} />
           </Route>
           <Route exact path="/contact-us" component={Contact} />
+          <Route exact path="/covid-guidelines" component={Guidelines} />
         </Switch>
       </Router>
     </>

@@ -17,14 +17,13 @@
 .hero-caption-container {
   width: 100%;
   /* position: absolute; */
-  padding-top: 30vh;
-  padding-bottom: 30vh;
-
+  padding-top: 25vh;
+  padding-bottom: 25vh;
   text-align: center;
 }
 
 .hero-caption {
-  width: 500px;
+  width: 700px;
 }
 
 /* #covid-19-dashboard {
@@ -154,18 +153,8 @@
   }
 }
 
-@media (max-width: 540px) {
-  .hero-caption {
-    max-width: 250px !important;
-  }
-}
-
 @media (max-width: 450px) {
-  .hero-caption {
-    max-width: 100px !important;
-  }
   .hero-caption-container {
     width: 100%;
-    top: 50%;
   }
 }

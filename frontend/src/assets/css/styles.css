@@ -35,3 +35,16 @@ footer #social {
   background-color: rgba(44, 48, 68, 0.767);
   border-color: rgba(44, 48, 68, 0.767);
 }
+df-messenger {
+  --df-messenger-bot-message: #add8e6;
+  --df-messenger-button-titlebar-color: rgba(44, 48, 68, 0.767);
+  --df-messenger-button-titlebar-font-color: #fff;
+  --df-messenger-chat-background-color: #fff;
+  --df-messenger-font-color: #000;
+  /* /--df-messenger-input-box-color: grey;/
+  /--df-messenger-input-font-color: #000;/
+  /--df-messenger-input-placeholder-font-color: #000;/ */
+  --df-messenger-minimized-chat-close-icon-color: rgba(44, 48, 68, 0.767);
+  --df-messenger-send-icon: rgba(44, 48, 68, 0.767);
+  --df-messenger-user-message: #fff;
+}

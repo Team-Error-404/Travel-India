@@ -1,0 +1,12 @@
+.guidelines_heading {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.guidelines_text {
+  background-color: rgba(1, 1, 3, 0.667);
+  color: white;
+  border-radius: 1rem 1rem 1rem 1rem;
+  padding: 10px;
+}

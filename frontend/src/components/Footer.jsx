@@ -23,7 +23,7 @@ const Footer = () => {
             <p>Phone : <span className="contact-detail">08064744188</span></p>
             <p>Phone : <span className="contact-detail">08064744188</span></p>
             <p>
-              Email : <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=assist.travelindia@gmail.com.com&tf=1" id="email">assist.travelindia@gmail.com</a>
+              Email : <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=assist.travelindia@gmail.com&tf=1" id="email">assist.travelindia@gmail.com</a>
             </p>
           </div>
           <div id="social">

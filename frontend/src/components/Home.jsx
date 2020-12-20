@@ -3,7 +3,7 @@ import Chart from 'chart.js'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import hero_image from '../assets/img/hero_image.jpg'
-import hero_caption from '../assets/img/hero-caption.png'
+import hero_caption from '../assets/img/hero_caption.png'
 import flight from '../assets/img/Bookings/flight.jpg'
 import hotel from '../assets/img/Bookings/hotel.jpg'
 import pack from '../assets/img/Bookings/package.jpg'
@@ -34,24 +34,11 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      {/* <section> */}
-
       <div className='hero-image'>
-        {/* <img src={hero_image} alt="" className="hero-img" /> */}
         <div className="hero-caption-container">
           <img src={hero_caption} alt="hero-caption" className="hero-caption" />
         </div>
       </div>
-      {/* </section> */}
-      {/* <section id="covid-19-dashboard" className="container py-5 bg-light ">
-        <h2 className="mt-2 pb-3 header">COVID DASHBOARD</h2>
-        <div id="card-container">
-          <div id="confirmed" className="covid-card">Confirmed:<br />{confirmed}</div>
-          <div id="recovered" className="covid-card">Recovered:<br />{recovered}</div>
-          <div id="active" className="covid-card">Active:<br />{active}</div>
-          <div id="deceased" className="covid-card">Deceased:<br />{deceased}</div>
-        </div>
-      </section> */}
       <Dashboard />
       <main className="main-container ">
         <section id="video" className='mt-3'>

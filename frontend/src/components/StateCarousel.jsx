@@ -42,7 +42,7 @@ function StateCarousel() {
           </div>
         </div>
       </Link>
-      <Link className="px-3 nav-link state" to="/states/UtterPradesh" >
+      <Link className="px-3 nav-link state" to="/states/UttarPradesh" >
         <div className="card" >
           <img src={varanasi} className="card-img-top" alt="..." />
           <div className="card-body top-state-body">
