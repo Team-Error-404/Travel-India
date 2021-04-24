@@ -201,16 +201,18 @@ function Dashboard(props) {
         buildTable();
     }
     return (
-        <div className="body">
-            <section id="covid-19-dashboard">
+        <div>
+            
+            <section style={{  backgroundColor: '#fff',paddingTop:'5%'}}>
+            <p id="label">COVID19 Dashboard</p>
+                <p id="title-element">Last Updated On:</p>
                 <div id="card-container">
                     <div id="confirmed" className="covid-card">Confirmed:</div>
                     <div id="recovered" className="covid-card">Recovered:</div>
                     <div id="active" className="covid-card">Active:</div>
                     <div id="deceased" className="covid-card">Deceased:</div>
                 </div>
-                <p id="label">COVID19 Dashboard</p>
-                <p id="title-element">Last Updated On:</p>
+               
                 <section id="diagrams">
                     <div id="PieChart">
                         <canvas id="chartPie" width="100" height="50"></canvas><br />
