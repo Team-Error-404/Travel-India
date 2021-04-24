@@ -20,10 +20,10 @@ const Footer = () => {
         <div id="footer-coloumn3" className="col-lg-4 col-sm-12 coloumn">
           <h4>CONTACT US</h4>
           <div>
-            <p>Phone : <span className="contact-detail">7682X-XXXXX</span></p>
-            <p>Phone : <span className="contact-detail">7682X-XXXXX</span></p>
+            <p>Phone : <span className="contact-detail">08064744188</span></p>
+            <p>Phone : <span className="contact-detail">08064744188</span></p>
             <p>
-              Email : <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=yourperfecttrip@gmail.com&tf=1" id="email">yourperfecttrip@gmail.com</a>
+              Email : <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=assist.travelindia@gmail.com&tf=1" id="email">assist.travelindia@gmail.com</a>
             </p>
           </div>
           <div id="social">
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
       </section>
       <section id="copyright">
-        <small>&copy; YourPerfectTrip 2021 </small>
+        <small>&copy; 2020 Error 404</small>
       </section>
     </footer>
   )

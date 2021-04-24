@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <Navbar className="fixed-top px-2" expand='lg'>
       <div className="container">
-        <a href="/"><span style={{color:'#fff'}}>YourPerfectTrip</span></a>
+        <a className="navbar-brand" href="/"><img src={travel_india_logo} alt="" /></a>
         <Navbar.Toggle aria-controls="navbarSupportedContent">
           <FontAwesomeIcon icon={faBars} className="nav-toggler" />
         </Navbar.Toggle>
